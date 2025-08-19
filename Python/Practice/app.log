@@ -1,0 +1,11 @@
+2025-08-02 15:23:30,110 INFO Logging setup complete.
+2025-08-02 15:23:30,110 INFO Lambda add(5, 3) = 8
+2025-08-02 15:23:30,110 DEBUG Original list: [1, 2, 3, 4, 5]
+2025-08-02 15:23:30,110 INFO Squared list: [1, 4, 9, 16, 25]
+2025-08-02 15:23:30,110 DEBUG Original set: {1, 2, 3, 4}
+2025-08-02 15:23:30,110 INFO Set after adding 5: {1, 2, 3, 4, 5}
+2025-08-02 15:23:30,110 DEBUG Tuple: (10, 20, 30)
+2025-08-02 15:23:30,110 INFO Sum of tuple: 60
+2025-08-02 15:23:30,110 DEBUG Original dictionary: {'a': 1, 'b': 2, 'c': 3}
+2025-08-02 15:23:30,110 INFO Dictionary after adding d: {'a': 1, 'b': 2, 'c': 3, 'd': 4}
+2025-08-02 15:23:30,111 ERROR IndexError: list index out of range
