@@ -1,0 +1,16 @@
+python3 -m venv my_env
+
+# Activate virtual environment
+source my_env/bin/activate 
+
+# Install packages to virtual environment
+pip install pandas
+
+# List packages installed in environment
+pip list 
+
+# Save installed packages to requirements file
+pip freeze > requirements.txt
+
+# Deactivate virtual environment 
+deactivate
