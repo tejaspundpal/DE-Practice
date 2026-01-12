@@ -1,0 +1,46 @@
+city,period,temperature,is_high_temp,short_forecast,detailed_forecast,precipitation_chance,scraped_at
+seattle,Overnight,48,False,Slight ChanceRain,"Overnight: A 20 percent chance of rain before 2am.  Partly cloudy, with a low around 48. South southeast wind around 6 mph. ",0,2025-10-20 09:06:20
+seattle,Monday,59,True,Chance Rain,"Monday: A 40 percent chance of rain, mainly after 3pm.  Partly sunny, with a high near 59. South wind around 7 mph. ",0,2025-10-20 09:06:20
+seattle,Monday Night,45,False,Slight ChanceRain thenPartly Cloudy,"Monday Night: A 20 percent chance of rain before 11pm.  Partly cloudy, with a low around 45. Light southeast wind. ",0,2025-10-20 09:06:20
+seattle,Tuesday,61,True,Mostly Sunny,"Tuesday: Mostly sunny, with a high near 61. Light and variable wind. ",0,2025-10-20 09:06:20
+seattle,Tuesday Night,46,False,Partly Cloudy,"Tuesday Night: Partly cloudy, with a low around 46. Light and variable wind. ",0,2025-10-20 09:06:20
+seattle,Wednesday,64,True,Chance Rain,"Wednesday: A 40 percent chance of rain after 11am.  Partly sunny, with a high near 64.",0,2025-10-20 09:06:20
+seattle,Wednesday Night,52,False,Rain,Wednesday Night: Rain.  Low around 52. Chance of precipitation is 80%.,0,2025-10-20 09:06:20
+seattle,Thursday,62,True,Rain Likely,"Thursday: Rain likely.  Mostly cloudy, with a high near 62.",0,2025-10-20 09:06:20
+seattle,Thursday Night,54,False,Rain,"Thursday Night: Rain.  Cloudy, with a low around 54.",0,2025-10-20 09:06:20
+new_york,Overnight,65,False,Showers,"Overnight: Showers and possibly a thunderstorm.  Steady temperature around 65. South wind around 16 mph, with gusts as high as 29 mph.  Chance of precipitation is 90%.",0,2025-10-20 09:06:22
+new_york,Monday,62,True,Showers thenPartly Sunny,"Monday: Showers and possibly a thunderstorm before 8am, then a chance of showers between 8am and 11am.  Temperature falling to around 58 by 10am. Southwest wind 14 to 17 mph, with gusts as high as 28 mph.  Chance of precipitation is 80%. New precipitation amounts of less than a tenth of an inch, except higher amounts possible in thunderstorms. ",0,2025-10-20 09:06:22
+new_york,Monday Night,51,False,Mostly Clear,"Monday Night: Mostly clear, with a low around 51. West wind 10 to 14 mph. ",0,2025-10-20 09:06:22
+new_york,Tuesday,65,True,Sunny,"Tuesday: Sunny, with a high near 65. South wind 8 to 13 mph. ",0,2025-10-20 09:06:22
+new_york,Tuesday Night,56,False,Showers,Tuesday Night: Showers.  Low around 56. Southwest wind 9 to 13 mph.  Chance of precipitation is 80%. New precipitation amounts of less than a tenth of an inch possible. ,0,2025-10-20 09:06:22
+new_york,Wednesday,61,True,Showers thenMostly Sunny,Wednesday: Showers before 8am.  High near 61. Chance of precipitation is 80%.,0,2025-10-20 09:06:22
+new_york,Wednesday Night,49,False,Mostly Clear,"Wednesday Night: Mostly clear, with a low around 49.",0,2025-10-20 09:06:22
+new_york,Thursday,57,True,Mostly Sunny,"Thursday: Mostly sunny, with a high near 57.",0,2025-10-20 09:06:22
+new_york,Thursday Night,47,False,Mostly Clear,"Thursday Night: Mostly clear, with a low around 47.",0,2025-10-20 09:06:22
+chicago,Overnight,46,False,Clear,"Overnight: Clear, with a low around 46. West wind around 10 mph. ",0,2025-10-20 09:06:23
+chicago,Monday,66,True,Sunny thenSunny andBreezy,"Monday: Sunny, with a high near 66. Breezy, with a southwest wind 10 to 15 mph increasing to 15 to 20 mph in the afternoon. Winds could gust as high as 30 mph. ",0,2025-10-20 09:06:23
+chicago,Monday Night,50,False,ShowersLikely andBreezy,"Monday Night: Showers likely, mainly before 1am.  Increasing clouds, with a low around 50. Breezy, with a south wind 15 to 20 mph becoming west after midnight. Winds could gust as high as 30 mph.  Chance of precipitation is 60%. New precipitation amounts of less than a tenth of an inch possible. ",0,2025-10-20 09:06:23
+chicago,Tuesday,56,True,Breezy. Sunnythen ShowersLikely,"Tuesday: Showers likely after 1pm.  Increasing clouds, with a high near 56. Breezy, with a west wind 15 to 25 mph, with gusts as high as 35 mph.  Chance of precipitation is 60%.",0,2025-10-20 09:06:23
+chicago,Tuesday Night,45,False,ShowersLikely andBreezy,"Tuesday Night: Showers likely, mainly before 1am.  Mostly cloudy, with a low around 45. Breezy, with a west wind 20 to 25 mph, with gusts as high as 30 mph.  Chance of precipitation is 60%.",0,2025-10-20 09:06:23
+chicago,Wednesday,52,True,Slight ChanceShowers andBreezy,"Wednesday: A 20 percent chance of showers.  Mostly cloudy, with a high near 52. Breezy. ",0,2025-10-20 09:06:23
+chicago,Wednesday Night,42,False,Partly Cloudy,"Wednesday Night: Partly cloudy, with a low around 42.",0,2025-10-20 09:06:23
+chicago,Thursday,56,True,Sunny,"Thursday: Sunny, with a high near 56.",0,2025-10-20 09:06:23
+chicago,Thursday Night,42,False,Mostly Clear,"Thursday Night: Mostly clear, with a low around 42.",0,2025-10-20 09:06:23
+los_angeles,Overnight,58,False,Mostly Cloudy,"Overnight: Mostly cloudy, with a low around 58. Calm wind. ",0,2025-10-20 09:06:25
+los_angeles,Monday,81,True,BecomingSunny,"Monday: Partly sunny, then gradually becoming sunny, with a high near 81. Calm wind becoming west southwest around 5 mph in the afternoon. ",0,2025-10-20 09:06:25
+los_angeles,Monday Night,59,False,Patchy Fog,"Monday Night: Patchy fog after 11pm.  Otherwise, increasing clouds, with a low around 59. West southwest wind around 5 mph becoming calm  in the evening. ",0,2025-10-20 09:06:25
+los_angeles,Tuesday,78,True,Patchy Fogthen Sunny,"Tuesday: Patchy fog before 11am.  Otherwise, cloudy through mid morning, then gradual clearing, with a high near 78. Calm wind becoming south southwest around 5 mph in the afternoon. ",0,2025-10-20 09:06:25
+los_angeles,Tuesday Night,57,False,Mostly Cloudy,"Tuesday Night: Mostly cloudy, with a low around 57. Southwest wind around 5 mph becoming calm  after midnight. ",0,2025-10-20 09:06:25
+los_angeles,Wednesday,70,True,Mostly Sunny,"Wednesday: Mostly sunny, with a high near 70.",0,2025-10-20 09:06:25
+los_angeles,Wednesday Night,55,False,Patchy Fog,"Wednesday Night: Patchy fog after 11pm.  Otherwise, mostly cloudy, with a low around 55.",0,2025-10-20 09:06:25
+los_angeles,Thursday,74,True,Patchy Fogthen Sunny,"Thursday: Patchy fog before 11am.  Otherwise, mostly sunny, with a high near 74.",0,2025-10-20 09:06:25
+los_angeles,Thursday Night,57,False,Patchy Fog,"Thursday Night: Patchy fog after 11pm.  Otherwise, mostly cloudy, with a low around 57.",0,2025-10-20 09:06:25
+miami,Overnight,78,False,Slight ChanceShowers,"Overnight: A 20 percent chance of showers.  Mostly clear, with a low around 78. Southeast wind around 7 mph. ",0,2025-10-20 09:06:26
+miami,Monday,85,True,ChanceT-storms,"Monday: A 40 percent chance of showers and thunderstorms, mainly between 2pm and 4pm.  Mostly sunny, with a high near 85. East wind 5 to 10 mph. ",0,2025-10-20 09:06:26
+miami,Monday Night,78,False,Slight ChanceShowers,"Monday Night: A slight chance of showers between 11pm and 1am.  Partly cloudy, with a low around 78. East wind around 9 mph.  Chance of precipitation is 20%.",0,2025-10-20 09:06:26
+miami,Tuesday,85,True,Sunny thenSlight ChanceT-storms,"Tuesday: A 20 percent chance of showers and thunderstorms after 2pm.  Sunny, with a high near 85. East wind 8 to 10 mph. ",0,2025-10-20 09:06:26
+miami,Tuesday Night,77,False,Mostly Clear,"Tuesday Night: Mostly clear, with a low around 77. East wind 7 to 9 mph. ",0,2025-10-20 09:06:26
+miami,Wednesday,85,True,Sunny,"Wednesday: Sunny, with a high near 85. Northeast wind 7 to 13 mph. ",0,2025-10-20 09:06:26
+miami,Wednesday Night,77,False,Mostly Clear,"Wednesday Night: Mostly clear, with a low around 77. Northeast wind around 11 mph. ",0,2025-10-20 09:06:26
+miami,Thursday,84,True,Sunny thenSunny andBreezy,"Thursday: Sunny, with a high near 84. Breezy, with a northeast wind 13 to 17 mph, with gusts as high as 23 mph. ",0,2025-10-20 09:06:26
+miami,Thursday Night,77,False,Mostly Clearand Breezy,"Thursday Night: Mostly clear, with a low around 77. Breezy, with a northeast wind around 18 mph, with gusts as high as 23 mph. ",0,2025-10-20 09:06:26
