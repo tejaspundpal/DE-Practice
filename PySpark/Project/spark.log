@@ -1,162 +1,422 @@
-2025-08-24 05:32:42,930 - sparkLogger - INFO - Spark session created
-2025-08-24 05:54:24,918 - sparkLogger - INFO - Spark session created
-2025-08-24 11:08:30,948 - sparkLogger - INFO - Spark session created
-2025-08-24 11:42:46,011 - sparkLogger - INFO - Spark session created
-2025-09-07 09:32:46,904 - sparkLogger - INFO - Spark session created
-2025-09-07 10:05:19,107 - sparkLogger - INFO - Spark session created
-2025-09-07 10:14:58,242 - sparkLogger - INFO - Spark session created
-2025-09-07 10:23:37,041 - sparkLogger - INFO - Spark session created
-2025-09-13 11:01:10,384 - sparkLogger - INFO - Spark session created
-2025-09-13 12:06:23,796 - sparkLogger - INFO - Spark session created
-2025-09-13 12:45:19,241 - sparkLogger - INFO - Spark session created
-2025-09-13 13:30:25,620 - sparkLogger - INFO - Spark session created
-2025-09-13 14:38:36,926 - sparkLogger - INFO - Spark session created
-2025-09-13 15:48:58,078 - sparkLogger - INFO - Spark session created
-2025-09-14 01:01:36,892 - sparkLogger - INFO - Spark session created
-2025-09-14 05:52:38,867 - sparkLogger - INFO - Spark session created
-2025-09-14 08:59:55,974 - sparkLogger - INFO - Starting imports for Spark project
-2025-09-14 08:59:55,977 - sparkLogger - INFO - Imports completed for Spark project
-2025-09-14 09:00:37,199 - sparkLogger - INFO - Starting imports for Spark project
-2025-09-14 09:00:37,201 - sparkLogger - INFO - Imports completed for Spark project
-2025-09-14 09:00:38,069 - sparkLogger - INFO - Creating Spark session
-2025-09-14 09:00:38,100 - sparkLogger - INFO - Spark session created
-2025-09-14 09:00:38,428 - sparkLogger - INFO - Displaying Spark session object
-2025-09-14 09:00:39,204 - sparkLogger - INFO - Starting to read olist_customers_dataset.csv from S3
-2025-09-14 09:00:39,217 - sparkLogger - INFO - olist_customers_dataset.csv loaded into DataFrame
-2025-09-14 09:00:39,253 - sparkLogger - INFO - Printing schema for olist_customers_dataset_df
-2025-09-14 09:01:13,740 - sparkLogger - INFO - Schema printed successfully
-2025-09-14 09:01:13,742 - sparkLogger - INFO - Counting rows in olist_customers_dataset_df
-2025-09-14 09:01:19,921 - sparkLogger - INFO - Row count for olist_customers_dataset_df: 99441
-2025-09-14 09:01:19,924 - sparkLogger - INFO - olist_customers_dataset.csv read and processed successfully
-2025-09-14 09:01:20,199 - sparkLogger - INFO - Starting to read olist_geolocation_dataset.csv from S3
-2025-09-14 09:01:20,254 - sparkLogger - INFO - olist_geolocation_dataset.csv loaded into DataFrame
-2025-09-14 09:01:20,273 - sparkLogger - INFO - Printing schema for olist_geolocation_dataset_df
-2025-09-14 09:02:14,893 - sparkLogger - INFO - Starting imports for Spark project
-2025-09-14 09:02:14,915 - sparkLogger - INFO - Imports completed for Spark project
-2025-09-14 09:02:15,603 - sparkLogger - INFO - Creating Spark session
-2025-09-14 09:02:15,608 - sparkLogger - INFO - Spark session created
-2025-09-14 09:02:15,761 - sparkLogger - INFO - Displaying Spark session object
-2025-09-14 09:02:16,239 - sparkLogger - INFO - Starting to read olist_customers_dataset.csv from S3
-2025-09-14 09:02:16,244 - sparkLogger - INFO - olist_customers_dataset.csv loaded into DataFrame
-2025-09-14 09:02:16,250 - sparkLogger - INFO - Printing schema for olist_customers_dataset_df
-2025-09-14 09:02:47,620 - sparkLogger - INFO - Schema printed successfully
-2025-09-14 09:02:47,625 - sparkLogger - INFO - Counting rows in olist_customers_dataset_df
-2025-09-14 09:03:55,830 - sparkLogger - INFO - Starting imports for Spark project
-2025-09-14 09:03:55,838 - sparkLogger - INFO - Imports completed for Spark project
-2025-09-14 09:03:56,438 - sparkLogger - INFO - Creating Spark session
-2025-09-14 09:03:56,439 - sparkLogger - INFO - Spark session created
-2025-09-14 09:03:56,650 - sparkLogger - INFO - Displaying Spark session object
-2025-09-14 09:03:56,951 - sparkLogger - INFO - Starting to read olist_customers_dataset.csv from S3
-2025-09-14 09:03:56,958 - sparkLogger - INFO - olist_customers_dataset.csv loaded into DataFrame
-2025-09-14 09:03:56,970 - sparkLogger - INFO - Printing schema for olist_customers_dataset_df
-2025-09-14 09:04:33,507 - sparkLogger - INFO - Schema printed successfully
-2025-09-14 09:04:33,508 - sparkLogger - INFO - Counting rows in olist_customers_dataset_df
-2025-09-14 09:04:37,034 - sparkLogger - INFO - Row count for olist_customers_dataset_df: 99441
-2025-09-14 09:04:37,036 - sparkLogger - INFO - olist_customers_dataset.csv read and processed successfully
-2025-09-14 09:04:37,213 - sparkLogger - INFO - Starting to read olist_geolocation_dataset.csv from S3
-2025-09-14 09:04:37,258 - sparkLogger - INFO - olist_geolocation_dataset.csv loaded into DataFrame
-2025-09-14 09:04:37,259 - sparkLogger - INFO - Printing schema for olist_geolocation_dataset_df
-2025-09-14 09:04:50,143 - sparkLogger - INFO - Schema printed successfully for olist_geolocation_dataset_df
-2025-09-14 09:04:50,147 - sparkLogger - INFO - Counting rows in olist_geolocation_dataset_df
-2025-09-14 09:04:56,268 - sparkLogger - INFO - Row count for olist_geolocation_dataset_df: 1000163
-2025-09-14 09:04:56,462 - sparkLogger - INFO - Starting to read olist_order_items_dataset.csv from S3
-2025-09-14 09:04:56,559 - sparkLogger - INFO - olist_order_items_dataset.csv loaded into DataFrame
-2025-09-14 09:04:56,561 - sparkLogger - INFO - Printing schema for olist_order_items_dataset_df
-2025-09-14 09:05:16,427 - sparkLogger - INFO - Schema printed successfully for olist_order_items_dataset_df
-2025-09-14 09:05:16,428 - sparkLogger - INFO - Counting rows in olist_order_items_dataset_df
-2025-09-14 09:05:26,644 - sparkLogger - INFO - Row count for olist_order_items_dataset_df: 112650
-2025-09-14 09:05:26,862 - sparkLogger - INFO - Starting to read olist_order_payments_dataset.csv from S3
-2025-09-14 09:05:26,978 - sparkLogger - INFO - olist_order_payments_dataset.csv loaded into DataFrame
-2025-09-14 09:05:26,979 - sparkLogger - INFO - Printing schema for olist_order_payments_dataset_df
-2025-09-14 09:05:40,075 - sparkLogger - INFO - Schema printed successfully for olist_order_payments_dataset_df
-2025-09-14 09:05:40,077 - sparkLogger - INFO - Counting rows in olist_order_payments_dataset_df
-2025-09-14 09:05:43,425 - sparkLogger - INFO - Row count for olist_order_payments_dataset_df: 103886
-2025-09-14 09:05:43,754 - sparkLogger - INFO - Starting to read olist_order_reviews_dataset.csv from S3
-2025-09-14 09:05:43,756 - sparkLogger - INFO - olist_order_reviews_dataset.csv loaded into DataFrame
-2025-09-14 09:05:43,757 - sparkLogger - INFO - Printing schema for olist_order_reviews_dataset_df
-2025-09-14 09:05:57,785 - sparkLogger - INFO - Schema printed successfully for olist_order_reviews_dataset_df
-2025-09-14 09:05:57,787 - sparkLogger - INFO - Counting rows in olist_order_reviews_dataset_df
-2025-09-14 09:06:01,369 - sparkLogger - INFO - Row count for olist_order_reviews_dataset_df: 104162
-2025-09-14 09:06:01,671 - sparkLogger - INFO - Starting to read olist_orders_dataset.csv from S3
-2025-09-14 09:06:01,681 - sparkLogger - INFO - olist_orders_dataset.csv loaded into DataFrame
-2025-09-14 09:06:01,687 - sparkLogger - INFO - Printing schema for olist_orders_dataset_df
-2025-09-14 09:06:35,992 - sparkLogger - INFO - Schema printed successfully for olist_orders_dataset_df
-2025-09-14 09:06:35,993 - sparkLogger - INFO - Counting rows in olist_orders_dataset_df
-2025-09-14 09:06:39,593 - sparkLogger - INFO - Row count for olist_orders_dataset_df: 99441
-2025-09-14 09:06:39,796 - sparkLogger - INFO - Starting to read olist_products_dataset.csv from S3
-2025-09-14 09:06:39,945 - sparkLogger - INFO - olist_products_dataset.csv loaded into DataFrame
-2025-09-14 09:06:39,954 - sparkLogger - INFO - Printing schema for olist_products_dataset_df
-2025-09-14 09:06:48,613 - sparkLogger - INFO - Schema printed successfully for olist_products_dataset_df
-2025-09-14 09:06:48,615 - sparkLogger - INFO - Counting rows in olist_products_dataset_df
-2025-09-14 09:06:51,679 - sparkLogger - INFO - Row count for olist_products_dataset_df: 32951
-2025-09-14 09:06:51,973 - sparkLogger - INFO - Starting to read olist_sellers_dataset.csv from S3
-2025-09-14 09:06:52,092 - sparkLogger - INFO - olist_sellers_dataset.csv loaded into DataFrame
-2025-09-14 09:06:52,098 - sparkLogger - INFO - Printing schema for olist_sellers_dataset_df
-2025-09-14 09:06:56,301 - sparkLogger - INFO - Schema printed successfully for olist_sellers_dataset_df
-2025-09-14 09:06:56,302 - sparkLogger - INFO - Counting rows in olist_sellers_dataset_df
-2025-09-14 09:06:56,866 - sparkLogger - INFO - Row count for olist_sellers_dataset_df: 3095
-2025-09-14 09:06:56,998 - sparkLogger - INFO - Starting to read product_category_name_translation.csv from S3
-2025-09-14 09:06:57,014 - sparkLogger - INFO - product_category_name_translation.csv loaded into DataFrame
-2025-09-14 09:06:57,021 - sparkLogger - INFO - Printing schema for product_category_name_translation_df
-2025-09-14 09:07:00,613 - sparkLogger - INFO - Schema printed successfully for product_category_name_translation_df
-2025-09-14 09:07:00,619 - sparkLogger - INFO - Counting rows in product_category_name_translation_df
-2025-09-14 09:07:01,132 - sparkLogger - INFO - Row count for product_category_name_translation_df: 71
-2025-09-14 09:07:01,426 - sparkLogger - INFO - Displaying sample data from customers dataset
-2025-09-14 09:07:18,101 - sparkLogger - INFO - Displaying sample data from geolocation dataset
-2025-09-14 09:07:45,689 - sparkLogger - INFO - Displaying sample data from order items dataset
-2025-09-14 09:07:55,232 - sparkLogger - INFO - Displaying sample data from order payments dataset
-2025-09-14 09:08:03,867 - sparkLogger - INFO - Displaying sample data from order reviews dataset
-2025-09-14 09:08:43,305 - sparkLogger - INFO - Displaying sample data from orders dataset
-2025-09-14 09:08:55,029 - sparkLogger - INFO - Displaying sample data from products dataset
-2025-09-14 09:09:09,578 - sparkLogger - INFO - Displaying sample data from sellers dataset
-2025-09-14 09:09:37,970 - sparkLogger - INFO - Displaying sample data from product category name translation dataset
-2025-09-14 09:09:42,368 - sparkLogger - INFO - Displayed sample data from all loaded DataFrames
-2025-09-14 09:09:42,631 - sparkLogger - INFO - Displaying sample data from olist_customers_dataset_df
-2025-09-14 09:09:57,003 - sparkLogger - INFO - Displayed sample data from olist_customers_dataset_df
-2025-09-14 09:09:57,224 - sparkLogger - INFO - Assigning DataFrames to new variables
-2025-09-14 09:09:57,230 - sparkLogger - INFO - Assigned DataFrames to new variables
-2025-09-14 09:09:57,412 - sparkLogger - INFO - Removing duplicates from all DataFrames
-2025-09-14 09:09:57,415 - sparkLogger - INFO - Removed duplicates from all DataFrames
-2025-09-14 09:09:57,614 - sparkLogger - INFO - Handling null values in all DataFrames
-2025-09-14 09:09:57,617 - sparkLogger - INFO - Handled null values in all DataFrames
-2025-09-14 09:11:18,821 - sparkLogger - INFO - Displaying sample data from order_items_df
-2025-09-14 09:11:22,483 - sparkLogger - INFO - Displayed sample data from order_items_df
-2025-09-14 09:11:22,797 - sparkLogger - INFO - Adding date columns to order_items_df
-2025-09-14 09:11:22,799 - sparkLogger - INFO - Added date columns to order_items_df
-2025-09-14 09:11:26,514 - sparkLogger - INFO - Displayed sample data from order_items_df with new date columns
-2025-09-14 09:11:26,795 - sparkLogger - INFO - Displaying sample data from olist_order_reviews_dataset_df
-2025-09-14 09:11:28,398 - sparkLogger - INFO - Displayed sample data from olist_order_reviews_dataset_df
-2025-09-14 09:11:28,575 - sparkLogger - INFO - Assigning olist_order_reviews_dataset_df to order_reviews_df and counting rows
-2025-09-14 09:11:39,762 - sparkLogger - INFO - Row count for order_reviews_df: 104162
-2025-09-14 09:11:39,928 - sparkLogger - INFO - Filtering and displaying invalid date rows in olist_order_reviews_dataset_df
-2025-09-14 09:11:47,209 - sparkLogger - INFO - Number of invalid date rows: 68
-2025-09-14 09:11:54,551 - sparkLogger - INFO - Displayed invalid date rows in olist_order_reviews_dataset_df
-2025-09-14 09:11:54,781 - sparkLogger - INFO - Counting and printing rows in order_reviews_df
-2025-09-14 09:11:58,887 - sparkLogger - INFO - Row count for order_reviews_df: 104162
-2025-09-14 09:11:59,041 - sparkLogger - INFO - Filtering and displaying a specific review in olist_order_reviews_dataset_df
-2025-09-14 09:12:03,096 - sparkLogger - INFO - Displayed specific review from olist_order_reviews_dataset_df
-2025-09-14 09:12:03,303 - sparkLogger - INFO - Filtering and converting date columns in order_reviews_df
-2025-09-14 09:12:03,406 - sparkLogger - INFO - Converted date columns in order_reviews_df
-2025-09-14 09:12:04,407 - sparkLogger - INFO - Displayed sample data from order_reviews_df with converted date columns
-2025-09-14 09:12:04,839 - sparkLogger - INFO - Adding date-only columns to order_reviews_df
-2025-09-14 09:12:04,942 - sparkLogger - INFO - Added date-only columns to order_reviews_df
-2025-09-14 09:12:09,979 - sparkLogger - INFO - Displayed sample data from order_reviews_df with date-only columns
-2025-09-14 09:12:10,325 - sparkLogger - INFO - Printing schema and displaying sample data from orders_df
-2025-09-14 09:12:45,357 - sparkLogger - INFO - Displayed schema and sample data from orders_df
-2025-09-14 09:12:45,526 - sparkLogger - INFO - Filtering and converting date columns in orders_df
-2025-09-14 09:12:45,639 - sparkLogger - INFO - Converted date columns in orders_df
-2025-09-14 09:12:49,884 - sparkLogger - INFO - Displayed sample data from orders_df with converted date columns
-2025-09-14 09:12:50,062 - sparkLogger - INFO - Printed schema from orders_df with converted date columns
-2025-09-14 09:12:50,231 - sparkLogger - INFO - Counting and printing unique customers, products, and orders
-2025-09-14 09:13:16,998 - sparkLogger - INFO - Unique customers: 99441, Unique products: 32951, Unique orders: 96461
-2025-09-14 09:13:17,589 - sparkLogger - INFO - Adding date columns to orders_df
-2025-09-14 09:13:17,682 - sparkLogger - INFO - Added date columns to orders_df
-2025-09-14 09:13:23,540 - sparkLogger - INFO - Displayed sample data from orders_df with new date columns
-2025-09-14 09:13:23,888 - sparkLogger - INFO - Aggregating, displaying, and saving orders per month
-2025-09-14 09:13:33,158 - sparkLogger - INFO - Aggregated, displayed, and saved orders per month
-2025-09-14 09:13:33,160 - sparkLogger - INFO - Aggregating, displaying, and saving orders per year
-2025-09-14 09:13:49,184 - sparkLogger - INFO - Aggregated, displayed, and saved orders per year
-2025-09-14 09:13:49,245 - sparkLogger - INFO - Aggregating, displaying, and saving orders per day
-2025-09-14 09:13:58,712 - sparkLogger - INFO - Aggregated, displayed, and saved orders per day
-2025-09-14 09:13:59,340 - sparkLogger - INFO - Displaying all of orders_df
-2025-09-14 09:14:03,417 - sparkLogger - INFO - Displayed all of orders_df
+2026-01-15 18:45:12,942 - sparkLogger - INFO - Logger setup completed
+2026-01-15 18:45:13,247 - sparkLogger - INFO - Creating Spark session
+2026-01-15 18:45:13,250 - sparkLogger - INFO - Spark session created
+2026-01-15 18:45:13,448 - sparkLogger - INFO - Displaying Spark session object
+2026-01-15 18:45:13,900 - sparkLogger - INFO - Starting to read olist_customers_dataset.csv from S3
+2026-01-15 18:45:13,901 - sparkLogger - INFO - olist_customers_dataset.csv loaded into DataFrame
+2026-01-15 18:45:13,938 - sparkLogger - INFO - Printing schema for olist_customers_dataset_df
+2026-01-15 18:51:20,271 - sparkLogger - INFO - Starting to read olist_customers_dataset.csv from S3
+2026-01-15 18:51:20,272 - sparkLogger - INFO - olist_customers_dataset.csv loaded into DataFrame
+2026-01-15 18:51:20,273 - sparkLogger - INFO - Printing schema for olist_customers_dataset_df
+2026-01-18 18:46:41,839 - sparkLogger - INFO - Logger setup completed
+2026-01-18 18:46:46,287 - sparkLogger - INFO - Creating Spark session
+2026-01-18 18:46:46,290 - sparkLogger - INFO - Spark session created
+2026-01-18 18:46:50,763 - sparkLogger - INFO - Displaying Spark session object
+2026-01-18 18:46:53,117 - sparkLogger - INFO - Starting to read olist_customers_dataset.csv from S3
+2026-01-18 18:46:53,122 - sparkLogger - INFO - olist_customers_dataset.csv loaded into DataFrame
+2026-01-18 18:46:53,123 - sparkLogger - INFO - Printing schema for olist_customers_dataset_df
+2026-01-18 18:47:53,964 - sparkLogger - INFO - Starting to read olist_geolocation_dataset.csv from S3
+2026-01-18 18:47:53,965 - sparkLogger - INFO - olist_geolocation_dataset.csv loaded into DataFrame
+2026-01-18 18:47:53,966 - sparkLogger - INFO - Printing schema for olist_geolocation_dataset_df
+2026-01-18 18:48:23,515 - sparkLogger - INFO - Starting to read olist_customers_dataset.csv from S3
+2026-01-18 18:48:23,516 - sparkLogger - INFO - olist_customers_dataset.csv loaded into DataFrame
+2026-01-18 18:48:23,517 - sparkLogger - INFO - Printing schema for olist_customers_dataset_df
+2026-01-19 18:07:57,089 - sparkLogger - INFO - Logger setup completed
+2026-01-19 18:07:59,298 - sparkLogger - INFO - Creating Spark session
+2026-01-19 18:07:59,306 - sparkLogger - INFO - Spark session created
+2026-01-19 18:08:02,161 - sparkLogger - INFO - Displaying Spark session object
+2026-01-19 18:08:05,135 - sparkLogger - INFO - Starting to read olist_customers_dataset.csv from S3
+2026-01-19 18:08:05,143 - sparkLogger - INFO - olist_customers_dataset.csv loaded into DataFrame
+2026-01-19 18:08:05,153 - sparkLogger - INFO - Printing schema for olist_customers_dataset_df
+2026-01-19 18:08:31,060 - sparkLogger - INFO - Schema printed successfully
+2026-01-19 18:08:31,061 - sparkLogger - INFO - Counting rows in olist_customers_dataset_df
+2026-01-19 18:08:34,181 - sparkLogger - INFO - Row count for olist_customers_dataset_df: 99441
+2026-01-19 18:08:34,182 - sparkLogger - INFO - olist_customers_dataset.csv read and processed successfully
+2026-01-19 18:12:58,184 - sparkLogger - INFO - Logger setup completed
+2026-01-19 18:12:58,651 - sparkLogger - INFO - Creating Spark session
+2026-01-19 18:12:58,655 - sparkLogger - INFO - Spark session created
+2026-01-19 18:12:59,192 - sparkLogger - INFO - Displaying Spark session object
+2026-01-19 18:12:59,588 - sparkLogger - INFO - Starting to read olist_customers_dataset.csv from S3
+2026-01-19 18:12:59,589 - sparkLogger - INFO - olist_customers_dataset.csv loaded into DataFrame
+2026-01-19 18:12:59,590 - sparkLogger - INFO - Printing schema for olist_customers_dataset_df
+2026-01-19 18:13:01,172 - sparkLogger - INFO - Schema printed successfully
+2026-01-19 18:13:01,173 - sparkLogger - INFO - Counting rows in olist_customers_dataset_df
+2026-01-19 18:13:01,739 - sparkLogger - INFO - Row count for olist_customers_dataset_df: 99441
+2026-01-19 18:13:01,740 - sparkLogger - INFO - olist_customers_dataset.csv read and processed successfully
+2026-01-19 18:13:01,951 - sparkLogger - INFO - Starting to read olist_geolocation_dataset.csv from S3
+2026-01-19 18:13:01,992 - sparkLogger - INFO - olist_geolocation_dataset.csv loaded into DataFrame
+2026-01-19 18:13:01,993 - sparkLogger - INFO - Printing schema for olist_geolocation_dataset_df
+2026-01-19 18:13:04,108 - sparkLogger - INFO - Schema printed successfully for olist_geolocation_dataset_df
+2026-01-19 18:13:04,109 - sparkLogger - INFO - Counting rows in olist_geolocation_dataset_df
+2026-01-19 18:13:04,726 - sparkLogger - INFO - Row count for olist_geolocation_dataset_df: 1000163
+2026-01-19 18:13:05,000 - sparkLogger - INFO - Starting to read olist_order_items_dataset.csv from S3
+2026-01-19 18:13:05,001 - sparkLogger - INFO - olist_order_items_dataset.csv loaded into DataFrame
+2026-01-19 18:13:05,002 - sparkLogger - INFO - Printing schema for olist_order_items_dataset_df
+2026-01-19 18:13:06,346 - sparkLogger - INFO - Schema printed successfully for olist_order_items_dataset_df
+2026-01-19 18:13:06,349 - sparkLogger - INFO - Counting rows in olist_order_items_dataset_df
+2026-01-19 18:13:06,819 - sparkLogger - INFO - Row count for olist_order_items_dataset_df: 112650
+2026-01-19 18:13:07,069 - sparkLogger - INFO - Starting to read olist_order_payments_dataset.csv from S3
+2026-01-19 18:13:07,070 - sparkLogger - INFO - olist_order_payments_dataset.csv loaded into DataFrame
+2026-01-19 18:13:07,070 - sparkLogger - INFO - Printing schema for olist_order_payments_dataset_df
+2026-01-19 18:13:08,492 - sparkLogger - INFO - Schema printed successfully for olist_order_payments_dataset_df
+2026-01-19 18:13:08,492 - sparkLogger - INFO - Counting rows in olist_order_payments_dataset_df
+2026-01-19 18:13:09,025 - sparkLogger - INFO - Row count for olist_order_payments_dataset_df: 103886
+2026-01-19 18:13:09,257 - sparkLogger - INFO - Starting to read olist_order_reviews_dataset.csv from S3
+2026-01-19 18:13:09,337 - sparkLogger - INFO - olist_order_reviews_dataset.csv loaded into DataFrame
+2026-01-19 18:13:09,339 - sparkLogger - INFO - Printing schema for olist_order_reviews_dataset_df
+2026-01-19 18:13:10,664 - sparkLogger - INFO - Schema printed successfully for olist_order_reviews_dataset_df
+2026-01-19 18:13:10,665 - sparkLogger - INFO - Counting rows in olist_order_reviews_dataset_df
+2026-01-19 18:13:11,164 - sparkLogger - INFO - Row count for olist_order_reviews_dataset_df: 104162
+2026-01-19 18:13:11,419 - sparkLogger - INFO - Starting to read olist_orders_dataset.csv from S3
+2026-01-19 18:13:11,420 - sparkLogger - INFO - olist_orders_dataset.csv loaded into DataFrame
+2026-01-19 18:13:11,420 - sparkLogger - INFO - Printing schema for olist_orders_dataset_df
+2026-01-19 18:13:12,852 - sparkLogger - INFO - Schema printed successfully for olist_orders_dataset_df
+2026-01-19 18:13:12,861 - sparkLogger - INFO - Counting rows in olist_orders_dataset_df
+2026-01-19 18:13:13,547 - sparkLogger - INFO - Row count for olist_orders_dataset_df: 99441
+2026-01-19 18:13:13,718 - sparkLogger - INFO - Starting to read olist_products_dataset.csv from S3
+2026-01-19 18:13:13,910 - sparkLogger - INFO - olist_products_dataset.csv loaded into DataFrame
+2026-01-19 18:13:13,911 - sparkLogger - INFO - Printing schema for olist_products_dataset_df
+2026-01-19 18:13:15,146 - sparkLogger - INFO - Schema printed successfully for olist_products_dataset_df
+2026-01-19 18:13:15,146 - sparkLogger - INFO - Counting rows in olist_products_dataset_df
+2026-01-19 18:13:15,506 - sparkLogger - INFO - Row count for olist_products_dataset_df: 32951
+2026-01-19 18:13:15,814 - sparkLogger - INFO - Starting to read olist_sellers_dataset.csv from S3
+2026-01-19 18:13:15,815 - sparkLogger - INFO - olist_sellers_dataset.csv loaded into DataFrame
+2026-01-19 18:13:15,816 - sparkLogger - INFO - Printing schema for olist_sellers_dataset_df
+2026-01-19 18:13:16,974 - sparkLogger - INFO - Schema printed successfully for olist_sellers_dataset_df
+2026-01-19 18:13:16,975 - sparkLogger - INFO - Counting rows in olist_sellers_dataset_df
+2026-01-19 18:13:17,332 - sparkLogger - INFO - Row count for olist_sellers_dataset_df: 3095
+2026-01-19 18:13:17,563 - sparkLogger - INFO - Starting to read product_category_name_translation.csv from S3
+2026-01-19 18:13:17,567 - sparkLogger - INFO - product_category_name_translation.csv loaded into DataFrame
+2026-01-19 18:13:17,572 - sparkLogger - INFO - Printing schema for product_category_name_translation_df
+2026-01-19 18:13:18,644 - sparkLogger - INFO - Schema printed successfully for product_category_name_translation_df
+2026-01-19 18:13:18,645 - sparkLogger - INFO - Counting rows in product_category_name_translation_df
+2026-01-19 18:13:19,033 - sparkLogger - INFO - Row count for product_category_name_translation_df: 71
+2026-01-19 18:13:19,276 - sparkLogger - INFO - Displaying sample data from customers dataset
+2026-01-19 18:13:20,195 - sparkLogger - INFO - Displaying sample data from geolocation dataset
+2026-01-19 18:13:20,705 - sparkLogger - INFO - Displaying sample data from order items dataset
+2026-01-19 18:13:21,361 - sparkLogger - INFO - Displaying sample data from order payments dataset
+2026-01-19 18:13:21,906 - sparkLogger - INFO - Displaying sample data from order reviews dataset
+2026-01-19 18:13:22,396 - sparkLogger - INFO - Displaying sample data from orders dataset
+2026-01-19 18:13:23,167 - sparkLogger - INFO - Displaying sample data from products dataset
+2026-01-19 18:13:23,664 - sparkLogger - INFO - Displaying sample data from sellers dataset
+2026-01-19 18:13:24,073 - sparkLogger - INFO - Displaying sample data from product category name translation dataset
+2026-01-19 18:13:24,519 - sparkLogger - INFO - Displayed sample data from all loaded DataFrames
+2026-01-19 18:13:24,808 - sparkLogger - INFO - Displaying sample data from olist_customers_dataset_df
+2026-01-19 18:13:25,653 - sparkLogger - INFO - Displayed sample data from olist_customers_dataset_df
+2026-01-19 18:13:25,940 - sparkLogger - INFO - Assigning DataFrames to new variables
+2026-01-19 18:13:25,942 - sparkLogger - INFO - Assigned DataFrames to new variables
+2026-01-19 18:13:26,170 - sparkLogger - INFO - Removing duplicates from all DataFrames
+2026-01-19 18:13:26,250 - sparkLogger - INFO - Removed duplicates from all DataFrames
+2026-01-19 18:13:26,508 - sparkLogger - INFO - Handling null values in all DataFrames
+2026-01-19 18:13:26,509 - sparkLogger - INFO - Handled null values in all DataFrames
+2026-01-19 18:13:27,515 - sparkLogger - INFO - Displaying sample data from order_items_df
+2026-01-19 18:13:28,544 - sparkLogger - INFO - Displayed sample data from order_items_df
+2026-01-19 18:13:28,961 - sparkLogger - INFO - Adding date columns to order_items_df
+2026-01-19 18:13:28,967 - sparkLogger - INFO - Added date columns to order_items_df
+2026-01-19 18:13:30,282 - sparkLogger - INFO - Displayed sample data from order_items_df with new date columns
+2026-01-19 18:13:30,673 - sparkLogger - INFO - Displaying sample data from olist_order_reviews_dataset_df
+2026-01-19 18:13:31,460 - sparkLogger - INFO - Displayed sample data from olist_order_reviews_dataset_df
+2026-01-19 18:13:31,730 - sparkLogger - INFO - Assigning olist_order_reviews_dataset_df to order_reviews_df and counting rows
+2026-01-19 18:13:32,416 - sparkLogger - INFO - Row count for order_reviews_df: 104162
+2026-01-19 18:13:32,603 - sparkLogger - INFO - Filtering and displaying invalid date rows in olist_order_reviews_dataset_df
+2026-01-19 18:13:33,849 - sparkLogger - INFO - Number of invalid date rows: 68
+2026-01-19 18:13:34,887 - sparkLogger - INFO - Displayed invalid date rows in olist_order_reviews_dataset_df
+2026-01-19 18:13:35,150 - sparkLogger - INFO - Counting and printing rows in order_reviews_df
+2026-01-19 18:13:35,736 - sparkLogger - INFO - Row count for order_reviews_df: 104162
+2026-01-19 18:13:35,921 - sparkLogger - INFO - Filtering and displaying a specific review in olist_order_reviews_dataset_df
+2026-01-19 18:13:36,750 - sparkLogger - INFO - Displayed specific review from olist_order_reviews_dataset_df
+2026-01-19 18:13:37,029 - sparkLogger - INFO - Filtering and converting date columns in order_reviews_df
+2026-01-19 18:13:37,030 - sparkLogger - INFO - Converted date columns in order_reviews_df
+2026-01-19 18:13:37,738 - sparkLogger - INFO - Displayed sample data from order_reviews_df with converted date columns
+2026-01-19 18:13:38,077 - sparkLogger - INFO - Adding date-only columns to order_reviews_df
+2026-01-19 18:13:38,078 - sparkLogger - INFO - Added date-only columns to order_reviews_df
+2026-01-19 18:13:38,727 - sparkLogger - INFO - Displayed sample data from order_reviews_df with date-only columns
+2026-01-19 18:13:39,056 - sparkLogger - INFO - Printing schema and displaying sample data from orders_df
+2026-01-19 18:13:39,852 - sparkLogger - INFO - Displayed schema and sample data from orders_df
+2026-01-19 18:13:40,129 - sparkLogger - INFO - Filtering and converting date columns in orders_df
+2026-01-19 18:13:40,134 - sparkLogger - INFO - Converted date columns in orders_df
+2026-01-19 18:13:41,169 - sparkLogger - INFO - Displayed sample data from orders_df with converted date columns
+2026-01-19 18:13:41,290 - sparkLogger - INFO - Printed schema from orders_df with converted date columns
+2026-01-19 18:13:41,566 - sparkLogger - INFO - Counting and printing unique customers, products, and orders
+2026-01-19 18:13:45,243 - sparkLogger - INFO - Unique customers: 99441, Unique products: 32951, Unique orders: 96461
+2026-01-19 18:13:45,680 - sparkLogger - INFO - Adding date columns to orders_df
+2026-01-19 18:13:45,681 - sparkLogger - INFO - Added date columns to orders_df
+2026-01-19 18:13:46,674 - sparkLogger - INFO - Displayed sample data from orders_df with new date columns
+2026-01-19 18:13:46,914 - sparkLogger - INFO - Aggregating, displaying, and saving orders per month
+2026-01-19 18:13:53,995 - sparkLogger - INFO - Aggregated, displayed, and saved orders per month
+2026-01-19 18:13:53,996 - sparkLogger - INFO - Aggregating, displaying, and saving orders per year
+2026-01-19 18:13:58,370 - sparkLogger - INFO - Aggregated, displayed, and saved orders per year
+2026-01-19 18:13:58,373 - sparkLogger - INFO - Aggregating, displaying, and saving orders per day
+2026-01-19 18:14:02,652 - sparkLogger - INFO - Aggregated, displayed, and saved orders per day
+2026-01-19 18:14:03,081 - sparkLogger - INFO - Displaying all of orders_df
+2026-01-19 18:14:04,821 - sparkLogger - INFO - Displayed all of orders_df
+2026-01-19 18:14:05,208 - sparkLogger - INFO - Finding, displaying, and saving top 10 products by number of orders
+2026-01-19 18:14:13,192 - sparkLogger - INFO - Found, displayed, and saved top 10 products by number of orders
+2026-01-19 18:31:17,303 - sparkLogger - INFO - Logger setup completed
+2026-01-19 18:31:17,648 - sparkLogger - INFO - Creating Spark session
+2026-01-19 18:31:17,649 - sparkLogger - INFO - Spark session created
+2026-01-19 18:31:17,947 - sparkLogger - INFO - Displaying Spark session object
+2026-01-19 18:31:18,344 - sparkLogger - INFO - Starting to read olist_customers_dataset.csv from S3
+2026-01-19 18:31:18,345 - sparkLogger - INFO - olist_customers_dataset.csv loaded into DataFrame
+2026-01-19 18:31:18,349 - sparkLogger - INFO - Printing schema for olist_customers_dataset_df
+2026-01-19 18:31:20,374 - sparkLogger - INFO - Schema printed successfully
+2026-01-19 18:31:20,375 - sparkLogger - INFO - Counting rows in olist_customers_dataset_df
+2026-01-19 18:31:20,818 - sparkLogger - INFO - Row count for olist_customers_dataset_df: 99441
+2026-01-19 18:31:20,820 - sparkLogger - INFO - olist_customers_dataset.csv read and processed successfully
+2026-01-19 18:31:21,151 - sparkLogger - INFO - Starting to read olist_geolocation_dataset.csv from S3
+2026-01-19 18:31:21,154 - sparkLogger - INFO - olist_geolocation_dataset.csv loaded into DataFrame
+2026-01-19 18:31:21,156 - sparkLogger - INFO - Printing schema for olist_geolocation_dataset_df
+2026-01-19 18:31:22,860 - sparkLogger - INFO - Schema printed successfully for olist_geolocation_dataset_df
+2026-01-19 18:31:22,869 - sparkLogger - INFO - Counting rows in olist_geolocation_dataset_df
+2026-01-19 18:31:23,382 - sparkLogger - INFO - Row count for olist_geolocation_dataset_df: 1000163
+2026-01-19 18:31:23,640 - sparkLogger - INFO - Starting to read olist_order_items_dataset.csv from S3
+2026-01-19 18:31:23,642 - sparkLogger - INFO - olist_order_items_dataset.csv loaded into DataFrame
+2026-01-19 18:31:23,643 - sparkLogger - INFO - Printing schema for olist_order_items_dataset_df
+2026-01-19 18:31:24,707 - sparkLogger - INFO - Schema printed successfully for olist_order_items_dataset_df
+2026-01-19 18:31:24,708 - sparkLogger - INFO - Counting rows in olist_order_items_dataset_df
+2026-01-19 18:31:25,041 - sparkLogger - INFO - Row count for olist_order_items_dataset_df: 112650
+2026-01-19 18:31:25,303 - sparkLogger - INFO - Starting to read olist_order_payments_dataset.csv from S3
+2026-01-19 18:31:25,304 - sparkLogger - INFO - olist_order_payments_dataset.csv loaded into DataFrame
+2026-01-19 18:31:25,305 - sparkLogger - INFO - Printing schema for olist_order_payments_dataset_df
+2026-01-19 18:31:26,412 - sparkLogger - INFO - Schema printed successfully for olist_order_payments_dataset_df
+2026-01-19 18:31:26,413 - sparkLogger - INFO - Counting rows in olist_order_payments_dataset_df
+2026-01-19 18:31:26,800 - sparkLogger - INFO - Row count for olist_order_payments_dataset_df: 103886
+2026-01-19 18:31:27,059 - sparkLogger - INFO - Starting to read olist_order_reviews_dataset.csv from S3
+2026-01-19 18:31:27,060 - sparkLogger - INFO - olist_order_reviews_dataset.csv loaded into DataFrame
+2026-01-19 18:31:27,061 - sparkLogger - INFO - Printing schema for olist_order_reviews_dataset_df
+2026-01-19 18:31:28,060 - sparkLogger - INFO - Schema printed successfully for olist_order_reviews_dataset_df
+2026-01-19 18:31:28,061 - sparkLogger - INFO - Counting rows in olist_order_reviews_dataset_df
+2026-01-19 18:31:28,376 - sparkLogger - INFO - Row count for olist_order_reviews_dataset_df: 104162
+2026-01-19 18:31:28,661 - sparkLogger - INFO - Starting to read olist_orders_dataset.csv from S3
+2026-01-19 18:31:28,662 - sparkLogger - INFO - olist_orders_dataset.csv loaded into DataFrame
+2026-01-19 18:31:28,663 - sparkLogger - INFO - Printing schema for olist_orders_dataset_df
+2026-01-19 18:31:29,712 - sparkLogger - INFO - Schema printed successfully for olist_orders_dataset_df
+2026-01-19 18:31:29,713 - sparkLogger - INFO - Counting rows in olist_orders_dataset_df
+2026-01-19 18:31:30,007 - sparkLogger - INFO - Row count for olist_orders_dataset_df: 99441
+2026-01-19 18:31:30,236 - sparkLogger - INFO - Starting to read olist_products_dataset.csv from S3
+2026-01-19 18:31:30,237 - sparkLogger - INFO - olist_products_dataset.csv loaded into DataFrame
+2026-01-19 18:31:30,239 - sparkLogger - INFO - Printing schema for olist_products_dataset_df
+2026-01-19 18:31:31,445 - sparkLogger - INFO - Schema printed successfully for olist_products_dataset_df
+2026-01-19 18:31:31,446 - sparkLogger - INFO - Counting rows in olist_products_dataset_df
+2026-01-19 18:31:31,719 - sparkLogger - INFO - Row count for olist_products_dataset_df: 32951
+2026-01-19 18:31:31,964 - sparkLogger - INFO - Starting to read olist_sellers_dataset.csv from S3
+2026-01-19 18:31:31,965 - sparkLogger - INFO - olist_sellers_dataset.csv loaded into DataFrame
+2026-01-19 18:31:31,966 - sparkLogger - INFO - Printing schema for olist_sellers_dataset_df
+2026-01-19 18:31:32,817 - sparkLogger - INFO - Schema printed successfully for olist_sellers_dataset_df
+2026-01-19 18:31:32,818 - sparkLogger - INFO - Counting rows in olist_sellers_dataset_df
+2026-01-19 18:31:33,098 - sparkLogger - INFO - Row count for olist_sellers_dataset_df: 3095
+2026-01-19 18:31:33,374 - sparkLogger - INFO - Starting to read product_category_name_translation.csv from S3
+2026-01-19 18:31:33,374 - sparkLogger - INFO - product_category_name_translation.csv loaded into DataFrame
+2026-01-19 18:31:33,375 - sparkLogger - INFO - Printing schema for product_category_name_translation_df
+2026-01-19 18:31:34,210 - sparkLogger - INFO - Schema printed successfully for product_category_name_translation_df
+2026-01-19 18:31:34,211 - sparkLogger - INFO - Counting rows in product_category_name_translation_df
+2026-01-19 18:31:34,481 - sparkLogger - INFO - Row count for product_category_name_translation_df: 71
+2026-01-19 18:31:34,724 - sparkLogger - INFO - Displaying sample data from customers dataset
+2026-01-19 18:31:35,674 - sparkLogger - INFO - Displaying sample data from geolocation dataset
+2026-01-19 18:31:36,266 - sparkLogger - INFO - Displaying sample data from order items dataset
+2026-01-19 18:31:36,680 - sparkLogger - INFO - Displaying sample data from order payments dataset
+2026-01-19 18:31:37,094 - sparkLogger - INFO - Displaying sample data from order reviews dataset
+2026-01-19 18:31:37,482 - sparkLogger - INFO - Displaying sample data from orders dataset
+2026-01-19 18:31:38,049 - sparkLogger - INFO - Displaying sample data from products dataset
+2026-01-19 18:31:38,432 - sparkLogger - INFO - Displaying sample data from sellers dataset
+2026-01-19 18:31:38,865 - sparkLogger - INFO - Displaying sample data from product category name translation dataset
+2026-01-19 18:31:39,282 - sparkLogger - INFO - Displayed sample data from all loaded DataFrames
+2026-01-19 18:31:39,626 - sparkLogger - INFO - Displaying sample data from olist_customers_dataset_df
+2026-01-19 18:31:40,211 - sparkLogger - INFO - Displayed sample data from olist_customers_dataset_df
+2026-01-19 18:31:40,547 - sparkLogger - INFO - Assigning DataFrames to new variables
+2026-01-19 18:31:40,557 - sparkLogger - INFO - Assigned DataFrames to new variables
+2026-01-19 18:31:40,718 - sparkLogger - INFO - Removing duplicates from all DataFrames
+2026-01-19 18:31:40,811 - sparkLogger - INFO - Removed duplicates from all DataFrames
+2026-01-19 18:31:41,095 - sparkLogger - INFO - Handling null values in all DataFrames
+2026-01-19 18:31:41,099 - sparkLogger - INFO - Handled null values in all DataFrames
+2026-01-19 18:31:41,990 - sparkLogger - INFO - Displaying sample data from order_items_df
+2026-01-19 18:31:42,909 - sparkLogger - INFO - Displayed sample data from order_items_df
+2026-01-19 18:31:43,169 - sparkLogger - INFO - Adding date columns to order_items_df
+2026-01-19 18:31:43,175 - sparkLogger - INFO - Added date columns to order_items_df
+2026-01-19 18:31:43,905 - sparkLogger - INFO - Displayed sample data from order_items_df with new date columns
+2026-01-19 18:31:44,265 - sparkLogger - INFO - Displaying sample data from olist_order_reviews_dataset_df
+2026-01-19 18:31:44,827 - sparkLogger - INFO - Displayed sample data from olist_order_reviews_dataset_df
+2026-01-19 18:31:45,119 - sparkLogger - INFO - Assigning olist_order_reviews_dataset_df to order_reviews_df and counting rows
+2026-01-19 18:31:45,598 - sparkLogger - INFO - Row count for order_reviews_df: 104162
+2026-01-19 18:31:45,900 - sparkLogger - INFO - Filtering and displaying invalid date rows in olist_order_reviews_dataset_df
+2026-01-19 18:31:46,728 - sparkLogger - INFO - Number of invalid date rows: 68
+2026-01-19 18:31:47,564 - sparkLogger - INFO - Displayed invalid date rows in olist_order_reviews_dataset_df
+2026-01-19 18:31:47,843 - sparkLogger - INFO - Counting and printing rows in order_reviews_df
+2026-01-19 18:31:48,352 - sparkLogger - INFO - Row count for order_reviews_df: 104162
+2026-01-19 18:31:48,502 - sparkLogger - INFO - Filtering and displaying a specific review in olist_order_reviews_dataset_df
+2026-01-19 18:31:49,298 - sparkLogger - INFO - Displayed specific review from olist_order_reviews_dataset_df
+2026-01-19 18:31:49,654 - sparkLogger - INFO - Filtering and converting date columns in order_reviews_df
+2026-01-19 18:31:49,663 - sparkLogger - INFO - Converted date columns in order_reviews_df
+2026-01-19 18:31:50,567 - sparkLogger - INFO - Displayed sample data from order_reviews_df with converted date columns
+2026-01-19 18:31:50,999 - sparkLogger - INFO - Adding date-only columns to order_reviews_df
+2026-01-19 18:31:51,009 - sparkLogger - INFO - Added date-only columns to order_reviews_df
+2026-01-19 18:31:51,806 - sparkLogger - INFO - Displayed sample data from order_reviews_df with date-only columns
+2026-01-19 18:31:52,155 - sparkLogger - INFO - Printing schema and displaying sample data from orders_df
+2026-01-19 18:31:53,066 - sparkLogger - INFO - Displayed schema and sample data from orders_df
+2026-01-19 18:31:53,359 - sparkLogger - INFO - Filtering and converting date columns in orders_df
+2026-01-19 18:31:53,360 - sparkLogger - INFO - Converted date columns in orders_df
+2026-01-19 18:31:54,614 - sparkLogger - INFO - Displayed sample data from orders_df with converted date columns
+2026-01-19 18:31:54,702 - sparkLogger - INFO - Printed schema from orders_df with converted date columns
+2026-01-19 18:31:54,999 - sparkLogger - INFO - Counting and printing unique customers, products, and orders
+2026-01-19 18:31:58,340 - sparkLogger - INFO - Unique customers: 99441, Unique products: 32951, Unique orders: 96461
+2026-01-19 18:31:58,794 - sparkLogger - INFO - Adding date columns to orders_df
+2026-01-19 18:31:58,795 - sparkLogger - INFO - Added date columns to orders_df
+2026-01-19 18:31:59,724 - sparkLogger - INFO - Displayed sample data from orders_df with new date columns
+2026-01-19 18:32:00,054 - sparkLogger - INFO - Aggregating, displaying, and saving orders per month
+2026-01-19 18:32:03,595 - sparkLogger - INFO - Aggregated, displayed, and saved orders per month
+2026-01-19 18:32:03,596 - sparkLogger - INFO - Aggregating, displaying, and saving orders per year
+2026-01-19 18:32:06,786 - sparkLogger - INFO - Aggregated, displayed, and saved orders per year
+2026-01-19 18:32:06,788 - sparkLogger - INFO - Aggregating, displaying, and saving orders per day
+2026-01-19 18:32:10,194 - sparkLogger - INFO - Aggregated, displayed, and saved orders per day
+2026-01-19 18:32:10,629 - sparkLogger - INFO - Displaying all of orders_df
+2026-01-19 18:32:11,920 - sparkLogger - INFO - Displayed all of orders_df
+2026-01-19 18:32:12,266 - sparkLogger - INFO - Finding, displaying, and saving top 10 products by number of orders
+2026-01-19 18:32:18,653 - sparkLogger - INFO - Found, displayed, and saved top 10 products by number of orders
+2026-01-19 18:32:39,020 - sparkLogger - INFO - Finding, displaying, and saving top 10 products by number of orders
+2026-01-19 18:32:43,091 - sparkLogger - INFO - Found, displayed, and saved top 10 products by number of orders
+2026-01-19 18:34:04,514 - sparkLogger - INFO - Finding, displaying, and saving top 10 states by number of customers
+2026-01-19 18:34:08,960 - sparkLogger - INFO - Found, displayed, and saved top 10 states by number of customers
+2026-01-19 18:34:08,961 - sparkLogger - INFO - Finding, displaying, and saving top 10 states by number of orders
+2026-01-19 18:35:34,241 - sparkLogger - INFO - Finding, displaying, and saving top 10 states by number of customers
+2026-01-19 18:35:37,093 - sparkLogger - INFO - Found, displayed, and saved top 10 states by number of customers
+2026-01-19 18:36:55,517 - sparkLogger - INFO - Calculating total sales revenue
+2026-01-19 18:38:03,675 - sparkLogger - INFO - Calculating total sales revenue
+2026-01-19 18:38:05,062 - sparkLogger - INFO - Calculated total sales revenue
+2026-01-19 18:39:17,723 - sparkLogger - INFO - Finding, displaying, and saving top 10 best selling products by revenue
+2026-01-19 18:40:25,538 - sparkLogger - INFO - Finding, displaying, and saving top 5 states with highest sales revenue
+2026-01-20 02:23:59,611 - sparkLogger - INFO - Logger setup completed
+2026-01-20 02:23:59,967 - sparkLogger - INFO - Creating Spark session
+2026-01-20 02:23:59,979 - sparkLogger - INFO - Spark session created
+2026-01-20 02:24:00,308 - sparkLogger - INFO - Displaying Spark session object
+2026-01-20 02:24:01,113 - sparkLogger - INFO - Starting to read olist_customers_dataset.csv from S3
+2026-01-20 02:24:01,116 - sparkLogger - INFO - olist_customers_dataset.csv loaded into DataFrame
+2026-01-20 02:24:01,126 - sparkLogger - INFO - Printing schema for olist_customers_dataset_df
+2026-01-20 02:24:28,083 - sparkLogger - INFO - Schema printed successfully
+2026-01-20 02:24:28,084 - sparkLogger - INFO - Counting rows in olist_customers_dataset_df
+2026-01-20 02:24:30,472 - sparkLogger - INFO - Row count for olist_customers_dataset_df: 99441
+2026-01-20 02:24:30,473 - sparkLogger - INFO - olist_customers_dataset.csv read and processed successfully
+2026-01-20 02:24:31,253 - sparkLogger - INFO - Starting to read olist_geolocation_dataset.csv from S3
+2026-01-20 02:24:31,254 - sparkLogger - INFO - olist_geolocation_dataset.csv loaded into DataFrame
+2026-01-20 02:24:31,255 - sparkLogger - INFO - Printing schema for olist_geolocation_dataset_df
+2026-01-20 02:24:34,271 - sparkLogger - INFO - Schema printed successfully for olist_geolocation_dataset_df
+2026-01-20 02:24:34,274 - sparkLogger - INFO - Counting rows in olist_geolocation_dataset_df
+2026-01-20 02:24:34,972 - sparkLogger - INFO - Row count for olist_geolocation_dataset_df: 1000163
+2026-01-20 02:24:35,189 - sparkLogger - INFO - Starting to read olist_order_items_dataset.csv from S3
+2026-01-20 02:24:35,263 - sparkLogger - INFO - olist_order_items_dataset.csv loaded into DataFrame
+2026-01-20 02:24:35,265 - sparkLogger - INFO - Printing schema for olist_order_items_dataset_df
+2026-01-20 02:24:36,944 - sparkLogger - INFO - Schema printed successfully for olist_order_items_dataset_df
+2026-01-20 02:24:36,944 - sparkLogger - INFO - Counting rows in olist_order_items_dataset_df
+2026-01-20 02:24:37,382 - sparkLogger - INFO - Row count for olist_order_items_dataset_df: 112650
+2026-01-20 02:24:37,710 - sparkLogger - INFO - Starting to read olist_order_payments_dataset.csv from S3
+2026-01-20 02:24:37,711 - sparkLogger - INFO - olist_order_payments_dataset.csv loaded into DataFrame
+2026-01-20 02:24:37,712 - sparkLogger - INFO - Printing schema for olist_order_payments_dataset_df
+2026-01-20 02:24:39,196 - sparkLogger - INFO - Schema printed successfully for olist_order_payments_dataset_df
+2026-01-20 02:24:39,197 - sparkLogger - INFO - Counting rows in olist_order_payments_dataset_df
+2026-01-20 02:24:39,713 - sparkLogger - INFO - Row count for olist_order_payments_dataset_df: 103886
+2026-01-20 02:24:39,881 - sparkLogger - INFO - Starting to read olist_order_reviews_dataset.csv from S3
+2026-01-20 02:24:39,972 - sparkLogger - INFO - olist_order_reviews_dataset.csv loaded into DataFrame
+2026-01-20 02:24:39,974 - sparkLogger - INFO - Printing schema for olist_order_reviews_dataset_df
+2026-01-20 02:24:41,505 - sparkLogger - INFO - Schema printed successfully for olist_order_reviews_dataset_df
+2026-01-20 02:24:41,509 - sparkLogger - INFO - Counting rows in olist_order_reviews_dataset_df
+2026-01-20 02:24:41,998 - sparkLogger - INFO - Row count for olist_order_reviews_dataset_df: 104162
+2026-01-20 02:24:42,171 - sparkLogger - INFO - Starting to read olist_orders_dataset.csv from S3
+2026-01-20 02:24:42,298 - sparkLogger - INFO - olist_orders_dataset.csv loaded into DataFrame
+2026-01-20 02:24:42,309 - sparkLogger - INFO - Printing schema for olist_orders_dataset_df
+2026-01-20 02:24:43,773 - sparkLogger - INFO - Schema printed successfully for olist_orders_dataset_df
+2026-01-20 02:24:43,807 - sparkLogger - INFO - Counting rows in olist_orders_dataset_df
+2026-01-20 02:24:44,212 - sparkLogger - INFO - Row count for olist_orders_dataset_df: 99441
+2026-01-20 02:24:44,846 - sparkLogger - INFO - Starting to read olist_products_dataset.csv from S3
+2026-01-20 02:24:44,848 - sparkLogger - INFO - olist_products_dataset.csv loaded into DataFrame
+2026-01-20 02:24:44,851 - sparkLogger - INFO - Printing schema for olist_products_dataset_df
+2026-01-20 02:24:46,888 - sparkLogger - INFO - Schema printed successfully for olist_products_dataset_df
+2026-01-20 02:24:46,889 - sparkLogger - INFO - Counting rows in olist_products_dataset_df
+2026-01-20 02:24:47,346 - sparkLogger - INFO - Row count for olist_products_dataset_df: 32951
+2026-01-20 02:24:47,625 - sparkLogger - INFO - Starting to read olist_sellers_dataset.csv from S3
+2026-01-20 02:24:47,628 - sparkLogger - INFO - olist_sellers_dataset.csv loaded into DataFrame
+2026-01-20 02:24:47,629 - sparkLogger - INFO - Printing schema for olist_sellers_dataset_df
+2026-01-20 02:24:48,798 - sparkLogger - INFO - Schema printed successfully for olist_sellers_dataset_df
+2026-01-20 02:24:48,799 - sparkLogger - INFO - Counting rows in olist_sellers_dataset_df
+2026-01-20 02:24:49,143 - sparkLogger - INFO - Row count for olist_sellers_dataset_df: 3095
+2026-01-20 02:24:49,440 - sparkLogger - INFO - Starting to read product_category_name_translation.csv from S3
+2026-01-20 02:24:49,441 - sparkLogger - INFO - product_category_name_translation.csv loaded into DataFrame
+2026-01-20 02:24:49,442 - sparkLogger - INFO - Printing schema for product_category_name_translation_df
+2026-01-20 02:24:50,454 - sparkLogger - INFO - Schema printed successfully for product_category_name_translation_df
+2026-01-20 02:24:50,455 - sparkLogger - INFO - Counting rows in product_category_name_translation_df
+2026-01-20 02:24:50,962 - sparkLogger - INFO - Row count for product_category_name_translation_df: 71
+2026-01-20 02:24:51,295 - sparkLogger - INFO - Displaying sample data from customers dataset
+2026-01-20 02:24:52,329 - sparkLogger - INFO - Displaying sample data from geolocation dataset
+2026-01-20 02:24:52,970 - sparkLogger - INFO - Displaying sample data from order items dataset
+2026-01-20 02:24:53,557 - sparkLogger - INFO - Displaying sample data from order payments dataset
+2026-01-20 02:24:54,027 - sparkLogger - INFO - Displaying sample data from order reviews dataset
+2026-01-20 02:24:54,571 - sparkLogger - INFO - Displaying sample data from orders dataset
+2026-01-20 02:24:55,087 - sparkLogger - INFO - Displaying sample data from products dataset
+2026-01-20 02:24:55,653 - sparkLogger - INFO - Displaying sample data from sellers dataset
+2026-01-20 02:24:56,232 - sparkLogger - INFO - Displaying sample data from product category name translation dataset
+2026-01-20 02:24:56,882 - sparkLogger - INFO - Displayed sample data from all loaded DataFrames
+2026-01-20 02:24:58,577 - sparkLogger - INFO - Displaying sample data from olist_customers_dataset_df
+2026-01-20 02:24:59,385 - sparkLogger - INFO - Displayed sample data from olist_customers_dataset_df
+2026-01-20 02:24:59,763 - sparkLogger - INFO - Assigning DataFrames to new variables
+2026-01-20 02:24:59,765 - sparkLogger - INFO - Assigned DataFrames to new variables
+2026-01-20 02:25:00,089 - sparkLogger - INFO - Removing duplicates from all DataFrames
+2026-01-20 02:25:00,090 - sparkLogger - INFO - Removed duplicates from all DataFrames
+2026-01-20 02:25:00,369 - sparkLogger - INFO - Handling null values in all DataFrames
+2026-01-20 02:25:00,375 - sparkLogger - INFO - Handled null values in all DataFrames
+2026-01-20 02:25:03,886 - sparkLogger - INFO - Displaying sample data from order_items_df
+2026-01-20 02:25:04,896 - sparkLogger - INFO - Displayed sample data from order_items_df
+2026-01-20 02:25:05,231 - sparkLogger - INFO - Adding date columns to order_items_df
+2026-01-20 02:25:05,232 - sparkLogger - INFO - Added date columns to order_items_df
+2026-01-20 02:25:06,456 - sparkLogger - INFO - Displayed sample data from order_items_df with new date columns
+2026-01-20 02:25:06,875 - sparkLogger - INFO - Displaying sample data from olist_order_reviews_dataset_df
+2026-01-20 02:25:08,415 - sparkLogger - INFO - Displayed sample data from olist_order_reviews_dataset_df
+2026-01-20 02:25:08,678 - sparkLogger - INFO - Assigning olist_order_reviews_dataset_df to order_reviews_df and counting rows
+2026-01-20 02:25:09,234 - sparkLogger - INFO - Row count for order_reviews_df: 104162
+2026-01-20 02:25:09,506 - sparkLogger - INFO - Filtering and displaying invalid date rows in olist_order_reviews_dataset_df
+2026-01-20 02:25:10,874 - sparkLogger - INFO - Number of invalid date rows: 68
+2026-01-20 02:25:11,988 - sparkLogger - INFO - Displayed invalid date rows in olist_order_reviews_dataset_df
+2026-01-20 02:25:12,314 - sparkLogger - INFO - Counting and printing rows in order_reviews_df
+2026-01-20 02:25:12,994 - sparkLogger - INFO - Row count for order_reviews_df: 104162
+2026-01-20 02:25:13,256 - sparkLogger - INFO - Filtering and displaying a specific review in olist_order_reviews_dataset_df
+2026-01-20 02:25:14,503 - sparkLogger - INFO - Displayed specific review from olist_order_reviews_dataset_df
+2026-01-20 02:25:14,715 - sparkLogger - INFO - Filtering and converting date columns in order_reviews_df
+2026-01-20 02:25:14,719 - sparkLogger - INFO - Converted date columns in order_reviews_df
+2026-01-20 02:25:15,696 - sparkLogger - INFO - Displayed sample data from order_reviews_df with converted date columns
+2026-01-20 02:25:16,126 - sparkLogger - INFO - Adding date-only columns to order_reviews_df
+2026-01-20 02:25:16,135 - sparkLogger - INFO - Added date-only columns to order_reviews_df
+2026-01-20 02:25:17,027 - sparkLogger - INFO - Displayed sample data from order_reviews_df with date-only columns
+2026-01-20 02:25:17,310 - sparkLogger - INFO - Printing schema and displaying sample data from orders_df
+2026-01-20 02:25:18,079 - sparkLogger - INFO - Displayed schema and sample data from orders_df
+2026-01-20 02:25:18,354 - sparkLogger - INFO - Filtering and converting date columns in orders_df
+2026-01-20 02:25:18,356 - sparkLogger - INFO - Converted date columns in orders_df
+2026-01-20 02:25:19,428 - sparkLogger - INFO - Displayed sample data from orders_df with converted date columns
+2026-01-20 02:25:19,572 - sparkLogger - INFO - Printed schema from orders_df with converted date columns
+2026-01-20 02:25:19,913 - sparkLogger - INFO - Counting and printing unique customers, products, and orders
+2026-01-20 02:25:23,946 - sparkLogger - INFO - Unique customers: 99441, Unique products: 32951, Unique orders: 96461
+2026-01-20 02:25:24,400 - sparkLogger - INFO - Adding date columns to orders_df
+2026-01-20 02:25:24,401 - sparkLogger - INFO - Added date columns to orders_df
+2026-01-20 02:25:25,588 - sparkLogger - INFO - Displayed sample data from orders_df with new date columns
+2026-01-20 02:25:25,906 - sparkLogger - INFO - Aggregating, displaying, and saving orders per month
+2026-01-20 02:25:32,989 - sparkLogger - INFO - Aggregated, displayed, and saved orders per month
+2026-01-20 02:25:32,990 - sparkLogger - INFO - Aggregating, displaying, and saving orders per year
+2026-01-20 02:25:37,486 - sparkLogger - INFO - Aggregated, displayed, and saved orders per year
+2026-01-20 02:25:37,487 - sparkLogger - INFO - Aggregating, displaying, and saving orders per day
+2026-01-20 02:25:41,992 - sparkLogger - INFO - Aggregated, displayed, and saved orders per day
+2026-01-20 02:25:42,481 - sparkLogger - INFO - Displaying all of orders_df
+2026-01-20 02:25:44,321 - sparkLogger - INFO - Displayed all of orders_df
+2026-01-20 02:25:44,680 - sparkLogger - INFO - Finding, displaying, and saving top 10 products by number of orders
+2026-01-20 02:25:52,134 - sparkLogger - INFO - Found, displayed, and saved top 10 products by number of orders
+2026-01-20 02:25:52,509 - sparkLogger - INFO - Finding, displaying, and saving top 10 states by number of customers
+2026-01-20 02:25:55,929 - sparkLogger - INFO - Found, displayed, and saved top 10 states by number of customers
+2026-01-20 02:25:56,132 - sparkLogger - INFO - Calculating total sales revenue
+2026-01-20 02:25:57,612 - sparkLogger - INFO - Calculated total sales revenue
+2026-01-20 02:25:57,942 - sparkLogger - INFO - Finding, displaying, and saving top 10 best selling products by revenue
+2026-01-20 02:29:31,349 - sparkLogger - INFO - Calculating total sales revenue
+2026-01-20 02:29:32,938 - sparkLogger - INFO - Calculated total sales revenue
+2026-01-20 02:30:09,800 - sparkLogger - INFO - Calculating total sales revenue
+2026-01-20 02:30:11,271 - sparkLogger - INFO - Calculated total sales revenue
+2026-01-20 02:42:18,306 - sparkLogger - INFO - Finding, displaying, and saving top 10 best selling products by revenue
+2026-01-20 02:42:26,308 - sparkLogger - INFO - Found, displayed, and saved top 10 best selling products by revenue
+2026-01-20 02:50:06,352 - sparkLogger - INFO - Finding, displaying, and saving top 5 states with highest sales revenue
+2026-01-20 02:52:48,727 - sparkLogger - INFO - Finding, displaying, and saving top 5 states with highest sales revenue
+2026-01-20 02:53:48,422 - sparkLogger - INFO - Finding, displaying, and saving top 5 states with highest sales revenue
+2026-01-20 02:57:30,107 - sparkLogger - INFO - Finding, displaying, and saving top 5 states with highest sales revenue
+2026-01-20 03:00:38,739 - sparkLogger - INFO - Finding, displaying, and saving top 5 states with highest sales revenue
